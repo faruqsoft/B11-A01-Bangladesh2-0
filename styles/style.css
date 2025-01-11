@@ -296,7 +296,9 @@ td, th {
     background-color: #C6E4D6;
 }
 
-
+.tbtn {
+    padding: 12px 16px;
+}
 /*recent news style*/
 .recent-title {
     font-size: 40px;
