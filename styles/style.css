@@ -229,20 +229,40 @@ main{
 }
 .recent-item {
     display: flex;
-    align-items: center;
+
     justify-content: space-between;
     padding: 32px;
+    gap: 32px;
 }
 
-.recent-photo {
-
-
+.recent-photo img {
     border-radius: 24px;
+    margin-bottom: 12px;
 }
+.recent-item-text img {
+    margin-bottom: 12px;
+}
+
+.time {
+    font-size: 16px;
+    margin-bottom:12px;
+}
+.recent-satelite {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.recent-text-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
 
 /*donate section style*/
 .donate-content{
     text-align: center;
+    margin-top: 80px;
 }
 .donate-title {
     font-size: 40px;
