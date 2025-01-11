@@ -176,91 +176,126 @@ a.nav-btn {
 
 
 /*vision section style*/
-.vision-container {
-    margin-top: 80px;
+p.section-para {
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 70%);
+    line-height: 24px;
 }
-.vision-title {
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-    margin-bottom: 24px;
-}
-.vision-des {
-    font-size: 16px;
-    color: #0E0E0E;
+
+.flex-three-column {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
     margin-bottom: 32px;
 }
-.vision-items {
+
+.three-column {
+    flex: 0 1 calc(33% - 20px);
+    background: #fff;
+    border: 1px solid  rgba(14, 14, 14, 15%);
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    transition: transform 0.3s;
+}
+
+.three-column.icon-box {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
+}
 
-}
-.vosion-item-1 {
-    background-color:#DDE9FD;
-    border-radius: 16px;
-    padding: 32px;
-    box-shadow: rgba(84,144,245,0.5);
-}
-.vision-card-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #0E0E0E;
-    margin-top: 24px;
-}
-.vision-card-text {
-    font-size: 16px;
-    color: #0E0E0E;
-    margin-top: 12px;
-}
-.vision-digital-btn-1 {
-    color:#FFFFFF;
-    font-size: 16px;
-    font-weight:600;
+
+.dbg-btn {
+    display: inline-block;
+    padding: 11px 20px;
+    color: white;
+    background: #5490F5;
+    margin-top: 20px;
     border-radius: 8px;
-    background-color: #5490F5;
-    padding:11px 20px;
-    margin-top: 24px;
-}
-
-.vosion-item-2 {
-    background-color:#C6E4D6;
-    border-radius: 16px;
-    padding: 32px;
-}
-
-.vision-green-btn-2 {
-    color:#FFFFFF;
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
+}
+
+a.green-bg.dbg-btn {
     background-color: #09A15C;
-    border-radius: 8px;
-    padding:11px 20px;
-    margin-top: 24px;
 }
-.vosion-item-3 {
-    background-color:#F7EBCF;
-    border-radius: 16px;
-    padding: 32px;
-}
-.vision-modern-btn-3 {
-    color:#FFFFFF;
-    font-size: 16px;
-    font-weight:600;
+
+a.yellow-bg.dbg-btn {
     background-color: #FFC239;
-    border-radius: 8px;
-    padding:11px 20px;
-    margin-top: 24px;
 }
+
 
 /*yunus section style start*/
-.yunus-container{
-    margin-top: 80px;
 
-}
-.yunus-content {
 
+.quote-wrapper {
+    padding: 48px 24px;
+    border: 1px solid rgba(14,14,14, 15%);
+    border-radius: 16px;
+    position: relative;
 }
+
+.quote-icon {
+    position: absolute;
+    top: 25px;
+    left: 24px;
+}
+
+.quote-para {
+    color: rgba(14, 14, 14, 80%);
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h2.quote-name {
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14,14,14, 80%);
+}
+
+h4.role {
+    font-size: 16px;
+    color: rgba(14,14,14, 60%);
+    line-height: 24px;
+}
+
+/* Openion section style Start  */
+
+.openion-table {
+    padding: 32px;
+    /* border: 1px solid rgba(14,14, 14, 15%); */
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.openion-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: var(--black);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 36px 24px;
+}
+
+.table-head th {
+    padding: 24px;
+    background-color: #C6E4D6;
+}
+
 
 /*recent news style*/
 .recent-title {
@@ -271,17 +306,19 @@ a.nav-btn {
 }
 .recent-des {
     font-size: 16px;
-    color: #0E0E0E
+    color: #0E0E0E;
+    margin-bottom: 32px;
 }
-.recent-items {
-    margin-top: 32px;
-}
+
 .recent-item {
     display: flex;
-
     justify-content: space-between;
-    padding: 32px;
+    padding: 48px;
     gap: 32px;
+    background-color: #fff;
+    border-radius: 24px;
+    align-items: center;
+    margin-bottom: 32px;
 }
 
 .recent-photo img {
@@ -293,22 +330,29 @@ a.nav-btn {
 }
 
 .time {
+    color: rgba(14, 14, 14, 70%);
     font-size: 16px;
-    margin-bottom:12px;
+    margin-bottom: 12px;
+    line-height: 24px;
 }
 .recent-satelite {
+    color: rgba(14, 14, 14, 70%);
     font-size: 16px;
     margin-bottom: 32px;
+
 }
+
 .recent-text-title {
     font-size: 32px;
-    font-weight: bold;
-    color: #0E0E0E;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 80%);
     margin-bottom: 12px;
 }
 
 
-/*donate section style*/
+
+/* Donate Section style Start  */
+
 .donate-content{
     text-align: center;
     margin-top: 80px;
@@ -321,51 +365,55 @@ a.nav-btn {
 }
 .donate-des {
     font-size: 16px;
-    color: #0E0E0E;
+    color: rgba(14,14,14, .7);
     margin-bottom: 32px;
+    line-height: 24px;
 }
 .donate-card {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-bottom: 32px;
+    justify-content: space-between;
+    max-width: 1071px;
+    margin: auto auto 32px auto;
+    gap: 24px;
+    flex-wrap: wrap;
+}
 
+.donate-card .card {
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: #fff;
+    flex: 1 1 calc(25% - 20px);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
 }
-.donate-card-text-1{
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-    padding:40px;
-}
-.donate-card-text-2{
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-    padding:40px;
-}
-.donate-card-text-3{
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-    padding:40px;
-}
-.donate-card-text-4{
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-    padding:40px
 
+.donate-card-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
 }
-.card-2 {
+
+.card.select {
     background-color: #C6E4D6;
     border-radius: 16px;
     transition: background-color 0.3s ease;
 
 }
-.card-2:hover {
-    background-color: yellow;
-    color: red;
+.card:hover {
+    background-color: #C6E4D6;
 }
+.card:hover .donate-card-text{
+    color: #5490F5;
+}
+
+.donate-input {
+    max-width: 1032px;
+    margin: auto;
+}
+
 .donate-input input {
     width: 100%;
     padding: 20px;
@@ -374,20 +422,19 @@ a.nav-btn {
     color: #0E0E0E;
     border: none;
     margin-bottom: 32px;
+}
 
+.donate-btn .btn-primary {
+    border: none;
 }
 
 /*subscribtion section style*/
 
-.sub-container {
-    margin-top: 80px;
+.sub-content {
+    text-align: center;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
-}
-.sub-content {
-
-    text-align: center;
 }
 .sub-title {
     font-size: 40px;
@@ -397,17 +444,17 @@ a.nav-btn {
 }
 .sub-des {
     font-size: 16px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 70%);
     padding-top: 16px;
     padding-bottom: 24px;
+    line-height: 24px;
 }
+
 .sub-input-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none
-
-
+    border: none;
 }
 .sub-input input {
     font-size: 16px;
@@ -420,36 +467,37 @@ a.nav-btn {
 .sub-btn button {
     font-size: 18px;
     font-weight: 600;
-    background-color:#006A50;
+    background-color: #006A50;
     color: #FFFFFF;
     padding: 17px 34px;
     border: none;
-    border-radius:  0 8px 8px 0;
+    border-radius: 0 8px 8px 0;
 }
-.sub-down-text{
+.sub-down-text {
     font-size: 16px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 70%);
     padding-top: 24px;
-
 }
 
 /*footer section style*/
-.footer-content{
-    width: 80%;
+
+#footer {
+    background-color: #fff;
+}
+
+.footer-content {
     text-align: center;
-    margin: 0 auto;
-    padding-top: 80px;
+    padding: 50px 0;
 
 }
 .footer-content h1 {
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(14,14,14,10%);
 }
-hr{
-    margin-top: 32px;
-}
+
 .footer-icons {
     display: flex;
     align-items: center;
@@ -457,4 +505,3 @@ hr{
     margin-top: 32px;
     gap: 23px;
 }
-
