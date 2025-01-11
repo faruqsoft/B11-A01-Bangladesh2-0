@@ -42,8 +42,7 @@ a {
     padding-bottom: 80px;
 }
 
-
-
+2
 /* Header section style Start  */
 
 .flex-nav {
@@ -76,9 +75,7 @@ a.nav-btn {
     border-radius: 8px;
 }
 
-
 /* Banner Css Start  */
-
 
 .flex-banner {
     display: flex;
@@ -122,7 +119,6 @@ a.nav-btn {
 .banner-img img {
     width: 100%;
 }
-
 
 /*pillar style */
 
@@ -206,7 +202,6 @@ p.section-para {
     align-items: flex-start;
 }
 
-
 .dbg-btn {
     display: inline-block;
     padding: 11px 20px;
@@ -226,9 +221,7 @@ a.yellow-bg.dbg-btn {
     background-color: #FFC239;
 }
 
-
 /*yunus section style start*/
-
 
 .quote-wrapper {
     padding: 48px 24px;
@@ -298,6 +291,8 @@ td, th {
 
 .tbtn {
     padding: 12px 16px;
+    background-color: #C6E4D6;
+    border-radius: 4px;
 }
 /*recent news style*/
 .recent-title {
@@ -341,7 +336,6 @@ td, th {
     color: rgba(14, 14, 14, 70%);
     font-size: 16px;
     margin-bottom: 32px;
-
 }
 
 .recent-text-title {
@@ -350,7 +344,6 @@ td, th {
     color: rgba(14, 14, 14, 80%);
     margin-bottom: 12px;
 }
-
 
 
 /* Donate Section style Start  */
